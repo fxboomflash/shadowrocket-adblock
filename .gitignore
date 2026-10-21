@@ -1,0 +1,12 @@
+# Local secrets, captures and hosting administration receipts
+*.private-receipt.json
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.key
+*.pem
+*.har
+__pycache__/
+.DS_Store
