@@ -1,1 +1,33 @@
-
+{
+  "passed": true,
+  "sha256": "6b49e6fbb6a1688133e48f08e7ad11e9e8ae5c3d55496708f11ec42f56a188af",
+  "script_and_routing_cases": 1544,
+  "jd_behavior_cases": 162,
+  "taobao_behavior_cases": 283,
+  "mtop_routing_and_reply_cases": 1099,
+  "module_url_cases": 1477,
+  "ordinary_business_urls": 104,
+  "retained_bilibili_urls": 126,
+  "native_mtop_reply_groups": 7,
+  "regex_check": {
+    "patterns": 640,
+    "scopeCases": 1477
+  },
+  "protected_hosts_checked": 99,
+  "explicit_domain_names": 288862,
+  "keywords": 277,
+  "remote_dependencies_verified": 12,
+  "legacy_jd_behavior_cases": 24,
+  "other_apps_preserved": true,
+  "original_proxy_dns_cert_ip_preserved": true,
+  "new_exact_mitm_hosts": [
+    "h5api.m.goofish.com",
+    "h5api.m.taobao.com"
+  ],
+  "request_formats": "query, form, JSON, strict Base64 JSON/form, body wrapper, UTF-8 bytes; ambiguous calls pass",
+  "response_formats": "JSON and strict UTF-8 Base64; original encoding preserved",
+  "native_script_paths_disjoint": true,
+  "h5_cors_and_jsonp_fallback_verified": true,
+  "phone_tested": false,
+  "does_not_establish_device_failure_cause": true
+}
